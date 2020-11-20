@@ -1,7 +1,0 @@
-{
-  "tests/test_exercise001.py": true, 
-  "tests/test_exercise002.py": true, 
-  "tests/test_exercise003.py": true, 
-  "tests/test_exercise004.py": true, 
-  "tests/test_exercise005.py": true
-}
