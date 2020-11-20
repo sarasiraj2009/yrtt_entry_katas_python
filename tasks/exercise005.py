@@ -19,4 +19,14 @@
 # wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
 def wave(people):
-    return
+    word = ""
+    newPeople = []
+    
+    for i in range(len(people)):
+        word = people[:i] + people[i].upper() + people[i+1:]
+        if word == people:
+            next
+        else:
+            newPeople.append(word)
+            
+    return newPeople

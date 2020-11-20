@@ -22,4 +22,12 @@
 # The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2.
 
 def row_weights(array):
-    return
+    teamsWeight= [0,0]
+    
+    for i in range(len(array)):
+        if (i % 2 == 0):
+            teamsWeight[0] += array[i]
+        else:
+            teamsWeight[1] += array[i]
+
+    return teamsWeight
